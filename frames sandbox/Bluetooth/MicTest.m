@@ -7,11 +7,19 @@
 //
 
 #import "MicTest.h"
+#import "Example/IosAudioController.h"
 
-@implementation MicTest
+@implementation MicTest{
+    IosAudioController *audioController;
+}
 
 -(void)runTest{
-    
+    audioController = [[IosAudioController alloc] init];
+    [audioController start];
+}
+
+-(void)stopTest{
+    [audioController stop];
 }
 
 @end

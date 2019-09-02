@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A481247231C9C6700E53FC2 /* IosAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A481245231C9C6700E53FC2 /* IosAudioController.m */; };
 		3AB4DB04231B066D0090D6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB03231B066D0090D6BF /* AppDelegate.m */; };
 		3AB4DB07231B066D0090D6BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB06231B066D0090D6BF /* ViewController.m */; };
 		3AB4DB0A231B066D0090D6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4DB08231B066D0090D6BF /* Main.storyboard */; };
@@ -15,9 +16,6 @@
 		3AB4DB12231B066E0090D6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB11231B066E0090D6BF /* main.m */; };
 		3AB4DB27231B0D3C0090D6BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1C231B0D3B0090D6BF /* CFNetwork.framework */; };
 		3AB4DB29231B0D3C0090D6BF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1E231B0D3B0090D6BF /* CoreBluetooth.framework */; };
-		3AB4DB2A231B0D3C0090D6BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1F231B0D3B0090D6BF /* AudioToolbox.framework */; };
-		3AB4DB2B231B0D3C0090D6BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB20231B0D3C0090D6BF /* AVFoundation.framework */; };
-		3AB4DB2C231B0D3C0090D6BF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB21231B0D3C0090D6BF /* CoreAudio.framework */; };
 		3AB4DB2D231B0D3C0090D6BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB22231B0D3C0090D6BF /* CoreFoundation.framework */; };
 		3AB4DB2E231B0D3C0090D6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB23231B0D3C0090D6BF /* Foundation.framework */; };
 		3AB4DB2F231B0D3C0090D6BF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB24231B0D3C0090D6BF /* AVKit.framework */; };
@@ -29,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A481245231C9C6700E53FC2 /* IosAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IosAudioController.m; sourceTree = "<group>"; };
+		3A481246231C9C6700E53FC2 /* IosAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IosAudioController.h; sourceTree = "<group>"; };
 		3AB4DAFF231B066D0090D6BF /* frames sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frames sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB4DB02231B066D0090D6BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AB4DB03231B066D0090D6BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,11 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB4DB2A231B0D3C0090D6BF /* AudioToolbox.framework in Frameworks */,
 				3AB4DB27231B0D3C0090D6BF /* CFNetwork.framework in Frameworks */,
 				3AB4DB29231B0D3C0090D6BF /* CoreBluetooth.framework in Frameworks */,
-				3AB4DB2B231B0D3C0090D6BF /* AVFoundation.framework in Frameworks */,
-				3AB4DB2C231B0D3C0090D6BF /* CoreAudio.framework in Frameworks */,
 				3AB4DB2D231B0D3C0090D6BF /* CoreFoundation.framework in Frameworks */,
 				3AB4DB2E231B0D3C0090D6BF /* Foundation.framework in Frameworks */,
 				3AB4DB2F231B0D3C0090D6BF /* AVKit.framework in Frameworks */,
@@ -79,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A481244231C9C4C00E53FC2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A481246231C9C6700E53FC2 /* IosAudioController.h */,
+				3A481245231C9C6700E53FC2 /* IosAudioController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		3AB4DAF6231B066D0090D6BF = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +131,7 @@
 		3AB4DB19231B09350090D6BF /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				3A481244231C9C4C00E53FC2 /* Example */,
 				3AB4DB31231B0D760090D6BF /* SoundTest.h */,
 				3AB4DB32231B0D760090D6BF /* SoundTest.m */,
 				3AB4DB34231B0D830090D6BF /* MicTest.h */,
@@ -226,6 +233,7 @@
 			files = (
 				3AB4DB07231B066D0090D6BF /* ViewController.m in Sources */,
 				3AB4DB36231B0D830090D6BF /* MicTest.m in Sources */,
+				3A481247231C9C6700E53FC2 /* IosAudioController.m in Sources */,
 				3AB4DB12231B066E0090D6BF /* main.m in Sources */,
 				3AB4DB39231B0D930090D6BF /* Test.m in Sources */,
 				3AB4DB04231B066D0090D6BF /* AppDelegate.m in Sources */,

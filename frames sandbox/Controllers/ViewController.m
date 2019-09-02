@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "../Bluetooth/SoundTest.h"
+#import "../Bluetooth/MicTest.h"
 
 @interface ViewController ()
 
@@ -18,8 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    SoundTest *test = [[SoundTest alloc] init];
-    [test runTest];
+    
 }
 
 
@@ -28,5 +28,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)playSound:(id)sender {
+    SoundTest *test = [[SoundTest alloc] init];
+    [test runTest];
+}
+- (IBAction)startMic:(id)sender {
+    MicTest *micTest = [[MicTest alloc] init];
+    [micTest runTest];
+}
+- (IBAction)stopMic:(id)sender {
+}
 
 @end

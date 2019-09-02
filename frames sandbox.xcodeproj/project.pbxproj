@@ -13,6 +13,19 @@
 		3AB4DB0C231B066E0090D6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4DB0B231B066E0090D6BF /* Assets.xcassets */; };
 		3AB4DB0F231B066E0090D6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4DB0D231B066E0090D6BF /* LaunchScreen.storyboard */; };
 		3AB4DB12231B066E0090D6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB11231B066E0090D6BF /* main.m */; };
+		3AB4DB27231B0D3C0090D6BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1C231B0D3B0090D6BF /* CFNetwork.framework */; };
+		3AB4DB29231B0D3C0090D6BF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1E231B0D3B0090D6BF /* CoreBluetooth.framework */; };
+		3AB4DB2A231B0D3C0090D6BF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB1F231B0D3B0090D6BF /* AudioToolbox.framework */; };
+		3AB4DB2B231B0D3C0090D6BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB20231B0D3C0090D6BF /* AVFoundation.framework */; };
+		3AB4DB2C231B0D3C0090D6BF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB21231B0D3C0090D6BF /* CoreAudio.framework */; };
+		3AB4DB2D231B0D3C0090D6BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB22231B0D3C0090D6BF /* CoreFoundation.framework */; };
+		3AB4DB2E231B0D3C0090D6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB23231B0D3C0090D6BF /* Foundation.framework */; };
+		3AB4DB2F231B0D3C0090D6BF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB24231B0D3C0090D6BF /* AVKit.framework */; };
+		3AB4DB30231B0D3C0090D6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4DB25231B0D3C0090D6BF /* UIKit.framework */; };
+		3AB4DB33231B0D760090D6BF /* SoundTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB32231B0D760090D6BF /* SoundTest.m */; };
+		3AB4DB36231B0D830090D6BF /* MicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB35231B0D830090D6BF /* MicTest.m */; };
+		3AB4DB39231B0D930090D6BF /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB4DB38231B0D930090D6BF /* Test.m */; };
+		3AB4DB3B231B1C1E0090D6BF /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AB4DB3A231B1C1E0090D6BF /* sound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,24 @@
 		3AB4DB0E231B066E0090D6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB4DB10231B066E0090D6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB4DB11231B066E0090D6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AB4DB1B231B0D3B0090D6BF /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		3AB4DB1C231B0D3B0090D6BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3AB4DB1D231B0D3B0090D6BF /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		3AB4DB1E231B0D3B0090D6BF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3AB4DB1F231B0D3B0090D6BF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3AB4DB20231B0D3C0090D6BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3AB4DB21231B0D3C0090D6BF /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3AB4DB22231B0D3C0090D6BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3AB4DB23231B0D3C0090D6BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AB4DB24231B0D3C0090D6BF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3AB4DB25231B0D3C0090D6BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AB4DB31231B0D760090D6BF /* SoundTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundTest.h; sourceTree = "<group>"; };
+		3AB4DB32231B0D760090D6BF /* SoundTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundTest.m; sourceTree = "<group>"; };
+		3AB4DB34231B0D830090D6BF /* MicTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicTest.h; sourceTree = "<group>"; };
+		3AB4DB35231B0D830090D6BF /* MicTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicTest.m; sourceTree = "<group>"; };
+		3AB4DB37231B0D930090D6BF /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3AB4DB38231B0D930090D6BF /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		3AB4DB3A231B1C1E0090D6BF /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB4DB2A231B0D3C0090D6BF /* AudioToolbox.framework in Frameworks */,
+				3AB4DB27231B0D3C0090D6BF /* CFNetwork.framework in Frameworks */,
+				3AB4DB29231B0D3C0090D6BF /* CoreBluetooth.framework in Frameworks */,
+				3AB4DB2B231B0D3C0090D6BF /* AVFoundation.framework in Frameworks */,
+				3AB4DB2C231B0D3C0090D6BF /* CoreAudio.framework in Frameworks */,
+				3AB4DB2D231B0D3C0090D6BF /* CoreFoundation.framework in Frameworks */,
+				3AB4DB2E231B0D3C0090D6BF /* Foundation.framework in Frameworks */,
+				3AB4DB2F231B0D3C0090D6BF /* AVKit.framework in Frameworks */,
+				3AB4DB30231B0D3C0090D6BF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +84,7 @@
 			children = (
 				3AB4DB01231B066D0090D6BF /* frames sandbox */,
 				3AB4DB00231B066D0090D6BF /* Products */,
+				3AB4DB1A231B0D3B0090D6BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +99,11 @@
 		3AB4DB01231B066D0090D6BF /* frames sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				3AB4DB3A231B1C1E0090D6BF /* sound.wav */,
+				3AB4DB19231B09350090D6BF /* Bluetooth */,
+				3AB4DB18231B090D0090D6BF /* Controllers */,
 				3AB4DB02231B066D0090D6BF /* AppDelegate.h */,
 				3AB4DB03231B066D0090D6BF /* AppDelegate.m */,
-				3AB4DB05231B066D0090D6BF /* ViewController.h */,
-				3AB4DB06231B066D0090D6BF /* ViewController.m */,
 				3AB4DB08231B066D0090D6BF /* Main.storyboard */,
 				3AB4DB0B231B066E0090D6BF /* Assets.xcassets */,
 				3AB4DB0D231B066E0090D6BF /* LaunchScreen.storyboard */,
@@ -69,6 +111,46 @@
 				3AB4DB11231B066E0090D6BF /* main.m */,
 			);
 			path = "frames sandbox";
+			sourceTree = "<group>";
+		};
+		3AB4DB18231B090D0090D6BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4DB05231B066D0090D6BF /* ViewController.h */,
+				3AB4DB06231B066D0090D6BF /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3AB4DB19231B09350090D6BF /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4DB31231B0D760090D6BF /* SoundTest.h */,
+				3AB4DB32231B0D760090D6BF /* SoundTest.m */,
+				3AB4DB34231B0D830090D6BF /* MicTest.h */,
+				3AB4DB35231B0D830090D6BF /* MicTest.m */,
+				3AB4DB37231B0D930090D6BF /* Test.h */,
+				3AB4DB38231B0D930090D6BF /* Test.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		3AB4DB1A231B0D3B0090D6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4DB1F231B0D3B0090D6BF /* AudioToolbox.framework */,
+				3AB4DB1D231B0D3B0090D6BF /* AudioUnit.framework */,
+				3AB4DB20231B0D3C0090D6BF /* AVFoundation.framework */,
+				3AB4DB24231B0D3C0090D6BF /* AVKit.framework */,
+				3AB4DB1C231B0D3B0090D6BF /* CFNetwork.framework */,
+				3AB4DB21231B0D3C0090D6BF /* CoreAudio.framework */,
+				3AB4DB1B231B0D3B0090D6BF /* CoreAudioKit.framework */,
+				3AB4DB1E231B0D3B0090D6BF /* CoreBluetooth.framework */,
+				3AB4DB22231B0D3C0090D6BF /* CoreFoundation.framework */,
+				3AB4DB23231B0D3C0090D6BF /* Foundation.framework */,
+				3AB4DB25231B0D3C0090D6BF /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +213,7 @@
 				3AB4DB0F231B066E0090D6BF /* LaunchScreen.storyboard in Resources */,
 				3AB4DB0C231B066E0090D6BF /* Assets.xcassets in Resources */,
 				3AB4DB0A231B066D0090D6BF /* Main.storyboard in Resources */,
+				3AB4DB3B231B1C1E0090D6BF /* sound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AB4DB07231B066D0090D6BF /* ViewController.m in Sources */,
+				3AB4DB36231B0D830090D6BF /* MicTest.m in Sources */,
 				3AB4DB12231B066E0090D6BF /* main.m in Sources */,
+				3AB4DB39231B0D930090D6BF /* Test.m in Sources */,
 				3AB4DB04231B066D0090D6BF /* AppDelegate.m in Sources */,
+				3AB4DB33231B0D760090D6BF /* SoundTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
